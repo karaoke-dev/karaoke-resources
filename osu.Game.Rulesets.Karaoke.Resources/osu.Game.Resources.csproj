@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <Title>karaoke!resources</Title>
+    <Product>karaoke!resources</Product>
+    <Company>karaoke --dev</Company>
+  </PropertyGroup>
+  <PropertyGroup Label="Nuget">
+    <Title>karaoke!resources</Title>
+    <PackageId>osu.Game.Rulesets.Karaoke.Resources</PackageId>
+    <Authors>andy840119</Authors>
+    <PackageLicenseUrl>https://github.com/karaoke-dev/karaoke-resources/blob/master/LICENCE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/karaoke-dev/karaoke-resources</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/karaoke-dev/karaoke-resources</RepositoryUrl>
+    <PackageReleaseNotes>Automated release.</PackageReleaseNotes>
+    <copyright>https://github.com/karaoke-dev/karaoke-resources</copyright>
+    <PackageTags>karaoke resources</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Beatmaps\**\*" />
+    <EmbeddedResource Include="Fonts\**\*" />
+    <EmbeddedResource Include="Samples\**\*" />
+    <EmbeddedResource Include="Skins\**\*" />
+    <EmbeddedResource Include="Shaders\**\*" />
+    <EmbeddedResource Include="Textures\**\*" />
+    <EmbeddedResource Include="Tracks\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Resolves references to LocalisableString. -->
+    <PackageReference Include="ppy.osu.Framework" Version="2021.611.0">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+# License related
+/LICENSE                            @andy840119
+/README.md                          @andy840119
+
+# CI config
+/.github/               @andy840119
+
+# Resource related
+/osu.Game.Rulesets.Karaoke.Resources/         @andy840119
+
+# Editor or git config
+/.gitignore                            @andy840119

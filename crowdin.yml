@@ -1,8 +1,8 @@
 preserve_hierarchy: true
 base_path: osu.Game.Rulesets.Karaoke.Resources/Localisation
 files:
-  - source: *.resx
-    translation: %file_name%.%locale%.%file_extension%
+  - source: /*.resx
+    translation: /%file_name%.%locale%.%file_extension%
     ignore:
       - /%file_name%.*.%file_extension%
     update_option: update_as_unapproved

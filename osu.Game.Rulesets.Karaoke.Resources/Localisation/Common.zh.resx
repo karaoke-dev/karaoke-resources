@@ -61,7 +61,4 @@
   <data name="karaoke" xml:space="preserve">
     <value>卡拉OK</value>
   </data>
-  <data name="note" xml:space="preserve">
-    <value>音符</value>
-  </data>
 </root>

@@ -1,3 +1,6 @@
+pull_request_title: Custom PR title
+pull_request_labels:
+  - l10n
 preserve_hierarchy: true
 files:
   - source: /osu.Game.Rulesets.Karaoke.Resources/Localisation/*.resx

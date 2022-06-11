@@ -58,23 +58,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="scrolling_direction" xml:space="preserve">
+    <value>Scrolling direction</value>
+  </data>
+  <data name="scrolling_direction_tooltip" xml:space="preserve">
+    <value>Adjust the scroll direction in the scoring area. Will show that in the gameplay if the beatmap is support the scoring.</value>
+  </data>
   <data name="scroll_speed" xml:space="preserve">
     <value>Scroll speed</value>
   </data>
   <data name="show_cursor_while_playing" xml:space="preserve">
     <value>Show cursor while playing</value>
   </data>
+  <data name="show_cursor_while_playing_tooltip" xml:space="preserve">
+    <value>Will not showing the cursor while gameplay if not select this option.</value>
+  </data>
   <data name="translate" xml:space="preserve">
     <value>Translate</value>
+  </data>
+  <data name="translate_tooltip" xml:space="preserve">
+    <value>Show the translation under the lyric if contains in the beatmap.</value>
   </data>
   <data name="prefer_language" xml:space="preserve">
     <value>Prefer language</value>
   </data>
-  <data name="select_prefer_translate_language" xml:space="preserve">
+  <data name="prefer_language_tooltip" xml:space="preserve">
     <value>Select prefer translate language.</value>
   </data>
-  <data name="microphone_devices" xml:space="preserve">
-    <value>Microphone devices</value>
+  <data name="microphone_device" xml:space="preserve">
+    <value>Microphone device</value>
   </data>
   <data name="practice_preempt_time" xml:space="preserve">
     <value>Practice preempt time</value>
@@ -82,13 +94,13 @@
   <data name="open_ruleset_settings" xml:space="preserve">
     <value>Open ruleset settings</value>
   </data>
-  <data name="open_ruleset_settings_for_adjusting_more_configs" xml:space="preserve">
+  <data name="open_ruleset_settings_tooltip" xml:space="preserve">
     <value>Open ruleset settings for adjusting more configs.</value>
   </data>
   <data name="change_log" xml:space="preserve">
     <value>Change log</value>
   </data>
-  <data name="lets_see_what_karaoke_changed" xml:space="preserve">
+  <data name="change_log_tooltip" xml:space="preserve">
     <value>Let's see what karaoke! changed.</value>
   </data>
 </root>

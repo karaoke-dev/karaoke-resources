@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="scrolling_direction" xml:space="preserve">
-    <value>Scrolling direction</value>
+    <value>滾動方向</value>
   </data>
   <data name="scrolling_direction_tooltip" xml:space="preserve">
-    <value>Adjust the scroll direction in the scoring area. Will show that in the gameplay if the beatmap is support the scoring.</value>
+    <value>設定計分區域的的滾動方向。如果圖譜有支援計分系統的話，就會顯示出計分區域。</value>
   </data>
   <data name="scroll_speed" xml:space="preserve">
     <value>捲動速度</value>
@@ -71,22 +71,22 @@
     <value>當遊玩的時候，顯示鼠標</value>
   </data>
   <data name="show_cursor_while_playing_tooltip" xml:space="preserve">
-    <value>Will not showing the cursor while gameplay if not select this option.</value>
+    <value>如果不打開這個選項的話，遊玩時就不會顯示鼠標。</value>
   </data>
   <data name="translate" xml:space="preserve">
     <value>翻譯</value>
   </data>
   <data name="translate_tooltip" xml:space="preserve">
-    <value>Show the translation under the lyric if contains in the beatmap.</value>
+    <value>如果圖譜中針對歌詞有進行翻譯的話，就會顯示在歌詞下方。</value>
   </data>
   <data name="prefer_language" xml:space="preserve">
     <value>偏好的語言</value>
   </data>
   <data name="prefer_language_tooltip" xml:space="preserve">
-    <value>Select prefer translate language.</value>
+    <value>選擇偏好的翻譯語言</value>
   </data>
   <data name="microphone_device" xml:space="preserve">
-    <value>Microphone device</value>
+    <value>麥克風來源</value>
   </data>
   <data name="practice_preempt_time" xml:space="preserve">
     <value>延遲時間</value>
@@ -95,12 +95,12 @@
     <value>打開設定</value>
   </data>
   <data name="open_ruleset_settings_tooltip" xml:space="preserve">
-    <value>Open ruleset settings for adjusting more configs.</value>
+    <value>有更多設定藏在裡面</value>
   </data>
   <data name="change_log" xml:space="preserve">
     <value>更新日誌</value>
   </data>
   <data name="change_log_tooltip" xml:space="preserve">
-    <value>Let's see what karaoke! changed.</value>
+    <value>看看我們最近又更新了什麼</value>
   </data>
 </root>
